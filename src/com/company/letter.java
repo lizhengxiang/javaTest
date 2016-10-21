@@ -13,11 +13,12 @@ public class letter {
         y.x = 'a';
     }
     public static void main(String[] args) {
-        // write your code here
-        litter m = new litter();
-        litter y = new litter();
-        m.x = 'z';
-        System.out.print(m.equals(y));
+        int a, b = 20;
+        a  = 2;
+        while (a<=b){
+            System.out.print(a);
+            a++;
+        }
     }
 
 }
