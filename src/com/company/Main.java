@@ -13,5 +13,12 @@ public class Main {
         n2.i = 80;
         System.out.print(n1.i);
         System.out.print(n2.i);
+        n1 = n2;
+        System.out.print(n1.i);
+        System.out.print(n2.i);
+        n1.i = 50;
+        System.out.print(n1.i);
+        System.out.print(n2.i);
+
     }
 }
