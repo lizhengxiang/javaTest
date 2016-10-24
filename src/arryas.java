@@ -1,3 +1,5 @@
+import com.company.DefaultConstructor;
+
 /**
  * Created by lizhengxiang on 16-10-24.
  */
@@ -10,7 +12,8 @@ public class arryas {
             a2[i]++;
         }
         for (int i = 0; i < a1.length; i++){
-            System.out.print(a1[i]);
+            System.out.println(a1[i]);
         }
+        new DefaultConstructor();
     }
 }
