@@ -1,6 +1,4 @@
-import java.util.Dictionary;
-import java.util.Enumeration;
-import java.util.Vector;
+import java.util.*;
 
 /**
  * Created by lizhengxiang on 16-10-28.
@@ -23,7 +21,8 @@ public class AssocArray extends Dictionary {
         if(index == -1) return null;
         return values.elementAt(index);
     }
-    public Object remove(Object key) {int index = keys.indexOf(key);
+    public Object remove(Object key) {
+        int index = keys.indexOf(key);
         if(index == -1) return null;
         keys.removeElementAt(index);
         Object returnval = values.elementAt(index);
